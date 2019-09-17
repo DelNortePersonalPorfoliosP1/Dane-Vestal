@@ -1,7 +1,16 @@
+//
+//  Lab3.c
+//  DaneLab1
+//
+//  Created by Vestal, Dane on 9/17/19.
+//  Copyright © 2019 Vestal, Dane. All rights reserved.
+//
+
+#include "Lab3.h"
 #include <stdio.h>
 #include <math.h>
 
-int main(int argc, const char * argv[]) {
+int Lab3(void) {
     
     long time, days, hours, minutes, seconds;
     
@@ -15,4 +24,3 @@ int main(int argc, const char * argv[]) {
     
     return 0;
 }
-
