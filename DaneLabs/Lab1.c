@@ -15,7 +15,7 @@ int Lab1(void) {
     double side1;
     double side2;
     
-    printf("side1");
+    printf("\nside1");
     scanf("%lf",&side1);
     printf("side2");
     scanf("%lf",&side2);

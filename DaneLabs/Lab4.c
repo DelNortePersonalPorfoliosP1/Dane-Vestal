@@ -14,7 +14,7 @@ int Lab4(void) {
     
     double l;
     double w;
-    printf("length \n");
+    printf("\nlength \n");
     scanf("%lf",&l);
     printf("width \n");
     scanf("%lf",&w);

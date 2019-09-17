@@ -14,7 +14,7 @@ int Lab3(void) {
     
     long time, days, hours, minutes, seconds;
     
-    printf ("how many seconds");
+    printf ("\nhow many seconds");
     scanf ("%ld", &time);
     days = (time / 86400);
     hours = ((time % 86400)/ 3600);

@@ -10,11 +10,11 @@
 #include <stdio.h>
 #include <math.h>
 
-int main(int argc, const char * argv[]) {
+int Lab5(void) {
     double f, c, fact, n;
     
     
-    printf("temp in f\n");
+    printf("\ntemp in f\n");
     scanf("%lf", &f);
     
     fact = ((5*f)/9);
