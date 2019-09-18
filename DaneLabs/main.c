@@ -8,6 +8,12 @@
 int main(void) {
     
     int lab;
+    int a = 1;
+    int b;
+    int l = 1;
+    
+    while (a==1){
+        
     
     printf("what Lab (1-5) type in number?");
     scanf("%i",&lab);
@@ -30,7 +36,23 @@ int main(void) {
     else {
         printf ("you can only selests labs 1 thru 5");
     }
-
+        while (l==1){
+    printf ("\ndo you want to exit? 2 yes 1 no");
+    scanf ("%i",&b);
+        if (b==1){
+            a++;
+            break;
+        }
+        else if(b==2){
+            printf ("\n");
+            break;
+        }
+        else{
+            printf ("not an option");
+            
+        }
+        }
+    }
     return 0;
 }
 
