@@ -21,23 +21,23 @@ int main(void) {
     if (lab == 1){
     Lab1();
     }
-    if (lab == 2){
+    else if (lab == 2){
         Lab2();
     }
-    if (lab == 3){
+    else if (lab == 3){
         Lab3();
     }
-    if (lab == 4){
+    else if (lab == 4){
         Lab4();
     }
-    if (lab == 5){
+    else if (lab == 5){
         Lab5();
     }
     else {
-        printf ("you can only selests labs 1 thru 5");
+        printf ("you can only select labs 1 thru 5");
     }
         while (l==1){
-    printf ("\ndo you want to exit? 2 yes 1 no");
+    printf ("\ndo you want to run another lab 2 yes  1 no");
     scanf ("%i",&b);
         if (b==1){
             a++;

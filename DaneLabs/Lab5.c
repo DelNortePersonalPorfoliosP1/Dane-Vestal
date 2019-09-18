@@ -17,8 +17,9 @@ int Lab5(void) {
     printf("\ntemp in f\n");
     scanf("%lf", &f);
     
-    fact = ((5*f)/9);
-    c= fact-32;
+    fact = f-32;
+    c = ((5*fact)/9);
+
     printf("%lf degrees c \n", c);
     n = fabs(c);
     
