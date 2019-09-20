@@ -14,7 +14,17 @@ int main(void) {
     
     while (a==1){
         
-    
+        // added this so I could know what is going on
+            printf("=====================================\n");
+            printf("|   MENU SELECTION PORTFOLIO\n");
+            printf("=====================================\n");
+            printf("| Options:\n");
+            printf("|        1. Run pythagoras\n");
+            printf("|        2. Run array\n");
+            printf("|        3. Run time operator\n");
+            printf("|        4. Run rectangle\n");
+            printf("|        5. Run temperature\n");
+            printf("=====================================\n");
     printf("what Lab (1-5) type in number?");
     scanf("%i",&lab);
     
