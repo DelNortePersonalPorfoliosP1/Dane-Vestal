@@ -4,6 +4,7 @@
 #include "Lab3.h"
 #include "Lab4.h"
 #include "Lab5.h"
+#include "Lab6.h"
 
 int main(void) {
     
@@ -24,8 +25,9 @@ int main(void) {
             printf("|        3. Run time operator\n");
             printf("|        4. Run rectangle\n");
             printf("|        5. Run temperature\n");
+            printf("|        6. Run histogram\n");
             printf("=====================================\n");
-    printf("what Lab (1-5) type in number?");
+    printf("what Lab (1-6) type in number?");
     scanf("%i",&lab);
     
     if (lab == 1){
@@ -43,8 +45,11 @@ int main(void) {
     else if (lab == 5){
         Lab5();
     }
+    else if (lab == 6){
+        Lab6();
+    }
     else {
-        printf ("you can only select labs 1 thru 5");
+        printf ("you can only select labs 1 thru 6");
     }
         while (l==1){
     printf ("\ndo you want to run another lab 2 yes  1 no");
